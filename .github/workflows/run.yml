@@ -3,10 +3,10 @@ name: 刷步数
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: 0 7 * * *
+#  pull_request:
+#    branches: [ master ]
+#  schedule:
+#    - cron: 0 7 * * *
 
 jobs:
   build:
